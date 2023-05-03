@@ -1,9 +1,6 @@
 Alunos presentes
 Palestrante: Wallatan F
 
-<<<<<<< HEAD
--- Palestrante: Wallatan
-
 -- Marcus Viníicius Santos de Almeida
 -- Eriseu Ribas Trindade Junior
 
