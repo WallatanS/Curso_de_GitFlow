@@ -1,6 +1,7 @@
 Alunos presentes
 
 -- Palestrante: Wallatan
+<<<<<<< HEAD
 
 --
 --
@@ -10,3 +11,6 @@ Alunos presentes
 --
 --
 --
+=======
+Eriseu Ribas Trindade Junior
+>>>>>>> eriseu_feature
