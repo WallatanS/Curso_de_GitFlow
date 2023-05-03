@@ -1,5 +1,4 @@
 Alunos presentes
 
 -- Palestrante: Wallatan
-
-Pedro Clarindo da Silva Neto
+-- Pedro Clarindo da Silva Neto
