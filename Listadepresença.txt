@@ -2,4 +2,15 @@ Alunos presentes
 
 -- Palestrante: Wallatan
 
-Joicy Kelly Ferreira de Lara
+<<<<<<< HEAD
+--
+--
+--
+--
+--
+--
+--
+--
+=======
+Joicy Kelly Ferreira de Lara matricula 2020178440170 
+>>>>>>> Joicy_feature
