@@ -1,0 +1,69 @@
+//////Lista de comandos básicos do Git
+
+  git init (criar repositório)
+  
+  git add .
+  git commit -m “texto informativo” 
+  git commit -am "teste" //faz o add e logo sobre o commit
+  git push //Envia os dados para o servidor
+  git pull //Puxa os dados da servidor
+  
+  git checkout -b name-feature //cria uma branch e define ela como foco
+ 
+  git branch develop //cria uma branch
+  git branch -d nome-branch //remove uma branch
+  git branch -m main //renomeia uma branch
+  git push meu-repo --delete minha-branch
+  git checkout name-feature
+
+  git log //Ver histórico de commit
+  git revert 0df45df //desfaz um commit
+  git stash //salva as alterações de forma temporária
+
+//////Exemplo de projeto virtual
+
+  git commit -m "Commit inicial"
+  git branch develop
+  git branch name_feature
+
+
+  git checkout name_feature
+  git commit -m "Implementando Hellow Word"
+  git commit -m "Traduzindo para Olá mundo"
+
+  git checkout develop
+  git commit -m "Helow"
+  git commit -m "Helow 2"
+  git commit -m "Helow 3"
+  
+  git merge name_feature
+  git branch -d name_feature
+  
+  git checkout main 
+  git branch -m master
+  
+  git checkout -b release
+  git merge develop
+  git commit -m "teste 1"
+
+  git checkout master
+  git merge release
+  git tag -a v1.0 -m "Versão 1"
+
+  git checkout develop
+  git commit -m "texto"
+
+  //Configurando chave
+  gpg --full-gen-key
+  1
+  4096
+  0
+  y
+  o
+  gpg --list-secret-keys --keyid-format LONG mr@robot.sh
+  gpg --armor --export 30F2B65B9246B6CA
+
+  gpg --list-secret-keys --keyid-format LONG mr@robot.sh
+  git config --global user.signingkey 30F2B65B9246B6CA
+
+  git config --global commit.gpgsign true
